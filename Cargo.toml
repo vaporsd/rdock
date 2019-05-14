@@ -1,0 +1,14 @@
+[package]
+name = "rdock"
+description = "Yet another Docker API library in Rust"
+version = "0.1.0"
+authors = ["Leon ROUX <Nurrl@users.noreply.github.com>"]
+license = "GPLv3"
+homepage = "https://github.com/vaporsd/rdock"
+repository = "https://github.com/vaporsd/rdock"
+keywords = ["docker", "api"]
+
+[dependencies]
+failure = "0.1.5"
+http = "0.1.17"
+url = "1.7.2"
