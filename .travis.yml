@@ -1,0 +1,11 @@
+language: rust
+rust:
+  - nightly
+  - stable
+
+os:
+  - windows
+  - linux
+  - osx
+
+cache: cargo
