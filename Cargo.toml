@@ -12,3 +12,6 @@ keywords = ["docker", "api"]
 failure = "0.1.5"
 http = "0.1.17"
 url = "1.7.2"
+
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
